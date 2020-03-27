@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">League of Legends survey</h1>
+            <p id="description">This survey is for people with at least minor knowledge about League of Legends game</p>
+        </header>
+
+        <div class="form">
+            <form id="survey-form">
+                 <div class="name">   
+                    <label for="name" id="name-label">Name</label><br>
+                    <input type="name" id="name" name="name" placeholder="your name" required>
+                </div>
+                <div class="email">    
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="your email adress" required>
+                </div>
+                <div class="server">
+                    <label for="server">Server</label><br>
+                    <select name="server" id="server">
+                    <option value="BR">Brazil (BR)</option>
+                    <option value="EUNE">Europe Nordic & East (EUNE)</option>
+                    <option value="EUW">Europe West (EUW)</option>
+                    <option value="LAN">Latin America North (LAN)</option>
+                    <option value="LAS">Latin America South (LAS)	</option>
+                    <option value="NA">North America (NA)</option>
+                    <option value="OCE">Oceania (OCE)</option>
+                    <option value="RU">Russia (RU)</option>
+                    <option value="TR">Turkey (TR)</option>
+                    <option value="JP">Japan (JP)</option>
+                    <option value="PH">The Philippines (PH)</option>
+                    <option value="SG">Singapore, Malaysia, and Indonesia (SG)</option>
+                    <option value="TW">Taiwan, Hong Kong, and Macao (TW)</option>
+                    <option value="VN">Vietnam (VN)</option>
+                    <option value="TH">Thailand (TH)</option>
+                    <option value="KR">Republic of Korea (KR)</option>
+                    <option value="PBE">Public Beta Environment (PBE)</option>
+                    <option value="CN">People's Republic of China (CN)</option>
+                    </select>
+                </div>
+                <div class="nick">
+                    <label for="nick">Nick</label><br>
+                    <input type="text" id="nick" name="nick" placeholder="your game nickname">
+                </div>
+                <div class="division">   
+                    <label for="division">Division</label><br>
+                    <select name="division" id="dropdown">
+                        <option value="unranked">Unranked</option>
+                        <option value="iron">Iron</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                        <option value="platinum">Platinum</option>
+                        <option value="diamond">Diamond</option>
+                        <option value="master">Master</option>
+                        <option value="grandmaster">Grandmaster</option>
+                        <option value="challenger">Challenger</option>    
+                    </select>
+                </div>
+                <div class="improvements">
+                    <label for="improvements">What should be improved in League of Legends?</label><br>
+                    <input type="checkbox" id="client" name="client" value="client">
+                    <label for="client">Client</label><br>
+                    <input type="checkbox" id="champions" name="champions" value="champions">
+                    <label for="champions">Champions</label><br>
+                    <input type="checkbox" id="items" name="items" value="items">
+                    <label for="items">Items</label><br>
+                    <input type="checkbox" id="map" name="map" value="map">
+                    <label for="map">Map</label><br>
+                    <input type="checkbox" id="chat" name="chat" value="chat">
+                    <label for="chat">Chat</label><br>
+                    <input type="checkbox" id="ranked" name="ranked" value="ranked">
+                    <label for="ranked">Ranked System</label><br>
+                    <input type="checkbox" id="matchmaking" name="matchmaking" value="matchmaking">
+                    <label for="matchmaking">Matchmaking</label><br>
+                    <input type="checkbox" id="report" name="report" value="report">
+                    <label for="report">Report System</label><br>
+                    <input type="checkbox" id="servers" name="servers" value="servers">
+                    <label for="servers">Servers</label><br>
+                </div>
+                <div class="accounts">
+                    <label for="number" id="number-label">How many accounts do you have?</label><br>
+                    <input type="number" id="number" name="accounts" min="1" max="50" placeholder="1" required>
+                </div>
+                <div class="years">
+                    <label for="years">How long do you play League of Legends</label><br>
+                    <input type="radio" name="years" id="less-than-one" value="Less than 1">
+                    <label for="less-than-one">Less than a year</label><br>
+                    <input type="radio" name="years" id="one-to-five" value="1-5">
+                    <label for="one-to-five">1-5 years</label><br>
+                    <input type="radio" name="years" id="five-to-ten" value="5-10">
+                    <label for="five-to-ten">5-10 years</label><br>
+                    <input type="radio" name="years" id="more-than-ten" value="over 10">
+                    <label for="more-than-ten">Over 10 years</label><br>
+                </div>
+                <div class="recommend">
+                    <label for="recommend">Would you recommend League of Legends to your friends? why would/wouldn't you recommend it? (optional)</label><br>
+                    <textarea name="recommend" id="recommend" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="button" id="submit">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+
+
+    </main>   
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

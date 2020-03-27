@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-image: url(https://images4.alphacoders.com/600/600528.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  font-size: 1.2rem;
+  background-color: rgba(228, 37, 11, 0.7);
+  color: rgba(0, 0, 0, 0.9);
+  padding: 2rem;
+  width: 26.6vw;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 2%;
+}
+
+form div {
+  margin-top: 1rem;
+}
+
+.name input,
+.email input,
+.nick input,
+.accounts input {
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 26vw;
+  padding-left: 7px;
+}
+
+.server select,
+.division select {
+  border-radius: 5px;
+  height: 1.8rem;
+  padding-left: 7px;
+  width: 26.5vw;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.recommend textarea {
+  width: 26.5vw;
+}
+/*# sourceMappingURL=style.css.map */
