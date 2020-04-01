@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(9, 65, 9, 0.6);
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.904);
+  width: 100%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul {
+  margin-right: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+a {
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.welcome {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome h1 {
+  font-size: 2.2rem;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects h1 {
+  font-size: 2.2rem;
+  margin-top: 5rem;
+}
+
+.projects h2 {
+  text-decoration: none;
+  margin-top: -2rem;
+  color: black;
+}
+
+.projects .img1,
+.img2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects img {
+  margin: 4rem;
+  width: 500px;
+  height: 300px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile h1 {
+  text-transform: uppercase;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */
